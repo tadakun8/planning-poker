@@ -1,7 +1,7 @@
 import { collection, CollectionReference, getDocs } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import db from "../firebase";
-import { Project } from "../types";
+import { Project } from "../types/model";
 
 /**
  * Fetch a list of projects registered in the DB
