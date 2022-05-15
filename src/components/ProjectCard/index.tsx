@@ -1,6 +1,6 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
 
-import { Project } from "../../types/model";
+import { Project } from "../../types/models";
 
 type ProjectCardProps = Project;
 
