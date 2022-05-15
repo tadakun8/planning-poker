@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.0.0",
+    "@chakra-ui/storybook-addon": "^2.0.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "firebase": "^9.8.1",
@@ -37,6 +38,14 @@
         "rules": {
           "import/no-anonymous-default-export": "off"
         }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
       }
     ]
   },
@@ -53,7 +62,6 @@
     ]
   },
   "devDependencies": {
-    "@chakra-ui/storybook-addon": "^2.0.0",
     "@snek-at/storybook-addon-chakra-ui": "^1.0.0",
     "@storybook/addon-actions": "^6.4.22",
     "@storybook/addon-essentials": "^6.4.22",

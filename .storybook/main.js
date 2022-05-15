@@ -6,10 +6,9 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/preset-create-react-app",
     "@snek-at/storybook-addon-chakra-ui",
-    "@chakra-ui/storybook-addon",
   ],
   framework: "@storybook/react",
   core: {
-    builder: "webpack5",
+    builder: "@storybook/builder-webpack5",
   },
 };
